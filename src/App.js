@@ -23,6 +23,8 @@ function App() {
 
 
 
+<Home/>
+Registration fghgfhdfgdfg
     </div>
   );
 }
