@@ -20,12 +20,7 @@ function App() {
   <Route path='/staffinfo' element={<StaffInfo/>}></Route>
   <Route path='/login' element={<Login/>}></Route>
 </Routes>
-
-
-
-<Home/>
-Registration fghgfhdfgdfg
-    </div>
+   </div>
   );
 }
 
