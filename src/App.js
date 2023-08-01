@@ -7,7 +7,7 @@ function App() {
     <div className="App">
      <NavBar/>
 <Home/>
-Registration
+Registration fghgfhdfgdfg
     </div>
   );
 }
