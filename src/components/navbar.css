@@ -1,0 +1,80 @@
+.navbar_main {
+  background-color: rgb(245, 236, 236);
+  height: 70px;
+}
+
+.n-wrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+  align-items: center;
+  background-color: rgb(227, 230, 237);
+}
+.n-left {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+}
+
+.n-name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.n-right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+ 
+}
+.n-right > ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.n-list {
+  flex: 10;
+  margin-left: 45px;
+}
+.n-list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+}
+.n-list > ul > li {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+}
+.n-list > ul > li:hover {
+  cursor: pointer;
+}
+
+.n-middle {
+  font-size: 24px;
+}
+
+.n-button {
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #ff5252;
+  padding: 10px 15px 10px 15px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.n-right a {
+  color: rgb(36, 18, 194);
+  font-size: 18px;
+  text-decoration: none;
+}

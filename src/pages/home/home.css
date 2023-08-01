@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Lugrasimo&family=Outfit:wght@300;400;500&family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@500;900&display=swap");
+.main_home {
+  display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+
+.left_home {
+  width: 45%;
+  height: 90vh;
+  background-color: white;
+}
+
+
+
+.left_home_div {
+  width: 95%;
+  height: 400px;
+  /* background-color: green; */
+  margin: auto;
+  margin-top: 20%;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #ff5252;
+}
+
+.heading2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: rgb(6, 0, 0);
+}
+.heading3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+}
+
+.chatan {
+  width: 250px;
+  font-size: 24px;
+  /* font-family: 'Poppins', sans-serif; */
+}
+/* 
+.physio_picture {
+  border: 27px solid rgb(133, 174, 236);
+ 
+ 
+} */
+
+@keyframes hello {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.right_home {
+  width: 50%;
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.right_home_picture {
+  width: 500px;
+  height: 500px;
+   border-radius: 50%;
+  overflow: hidden;
+  border: 22px solid rgb(133, 174, 236);
+}
+.physio_picture
+{
+  margin-left: -96px;
+}
+.right_home_animation {
+  animation: hello 5s linear infinite;
+  background-color: red;
+  position: absolute;
+top: 0;
+left: 0;
+}
+
+.div1 {
+  height: 230px;
+  width: 180px;
+  background-color: rgb(246, 239, 239);
+  position: absolute;
+  top: 100px;
+  left: 90px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid white;
+  overflow: hidden;
+}
+.div2 {
+  height: 140px;
+  width: 250px;
+  background-color: rgb(246, 239, 239);
+  position: absolute;
+  top: 30px;
+  left: 490px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid white;
+  overflow: hidden;
+}
+
+.div3 {
+  height: 200px;
+  width: 250px;
+  background-color: rgb(246, 239, 239);
+  position: absolute;
+  top: 450px;
+  left: 490px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid white;
+  overflow:hidden;
+}
+.pain3
+  {
+margin-left: -30px;
+  }
+.right_home_stars {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+.fa-star {
+  left: -20px;
+  position: absolute;
+  color: rgb(16, 70, 91);
+  animation: animName 22s linear infinite;
+  border: 1px solid b;
+  
+}
+.fa-plus {
+  top: 200px;
+  left: 60px;
+  position: absolute;
+  color: rgb(177, 67, 102);
+  animation: animName 22s linear infinite;
+}
+
+.fa-clover {
+  top: 200px;
+  left: 290px;
+  position: absolute;
+  color: rgb(65, 189, 63);
+  animation: animName 22s linear infinite;
+}
+
+.fa-heart {
+  top: 250px;
+  left: -100px;
+  position: absolute;
+  color: rgb(233, 15, 15);
+  animation: animName 22s linear infinite;
+}
+
+.fa-certificate {
+  top: 460px;
+  left: 40px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  animation: animName 22s linear infinite;
+}
+.fa-gear {
+  top: 260px;
+  left: 340px;
+  position: absolute;
+  color: rgb(40, 133, 159);
+  animation: animName 22s linear infinite;
+}
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
