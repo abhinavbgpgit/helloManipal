@@ -3,12 +3,14 @@
 .main_home {
   display: flex;
 flex-wrap: wrap;
+background-image: url("/src/images/background.gif");
+background-size: cover;
 }
 
 .left_home {
   width: 45%;
   height: 90vh;
-  background-color: white;
+  /* background-color: white; */
 }
 
 
@@ -25,13 +27,14 @@ flex-wrap: wrap;
   font-size: 40px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: #ff5252;
+  /* color: #ff5252; */
+color: rgb(29, 77, 180);;
 }
 
 .heading2 {
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 700;
-  color: rgb(6, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .heading3 {
   font-size: 20px;
