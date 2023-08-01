@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@400;600;700;800;900&display=swap');
 .navbar_main {
   background-color: rgb(245, 236, 236);
   height: 70px;
@@ -44,19 +45,33 @@
 }
 .n-list > ul {
   display: flex;
-  gap: 2rem;
-  margin-right: 4rem;
+  
 }
 .n-list > ul > li {
-  display: flex;
-  gap: 2rem;
-  margin-right: 4rem;
+   margin-right: 5rem;
+  font-family: 'Poppins';
+  font-size: 20px;
+  width: fit-content;
 }
 .n-list > ul > li:hover {
   cursor: pointer;
 }
 
-.n-middle {
+.n-list ul li::before {
+ content: "";
+ width: 0px;
+ height: 3px;
+ background-color: red;
+ position: absolute;
+ top: 55px;
+ transition: all 0.3s linear;
+ 
+}
+.n-list ul li:hover:before {
+     width:50px;
+  }
+
+  .n-middle {
   font-size: 24px;
 }
 
@@ -76,5 +91,11 @@
 .n-right a {
   color: rgb(36, 18, 194);
   font-size: 18px;
+  text-decoration: none;
+  font-family: 'Poppins';
+}
+
+.link
+{
   text-decoration: none;
 }

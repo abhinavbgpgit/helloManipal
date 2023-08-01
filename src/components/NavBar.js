@@ -1,7 +1,7 @@
 import React from 'react'
 import './navbar.css'
 import logo from '../images/manipal.png'
-
+import { NavLink,NavNavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
             
@@ -9,26 +9,25 @@ const Navbar = () => {
     
     <div className="n-left">
         <div className="n-name">
-          <img src={logo} alt='hmm' height="70px"></img>
+        <NavLink to="/">  <img src={logo} alt='hmm' height="70px"></img></NavLink>
         </div>
           </div>
 
     <div className="n-middle">       
         <div className="n-list">
         <ul style={{listStyleType: 'none'}}>               
-                <li>Patient </li>
-                <li>Payment</li>
-                <li>Reports</li>  
-                <li>Staff Info</li>              
+                <li><NavLink className='link' to="/patient">Patient</NavLink> </li>               
+                <li><NavLink className='link' to="/payment">Payment</NavLink></li>
+                <li><NavLink className='link' to="/reports">Reports</NavLink></li>  
+                <li><NavLink className='link' to="/staffinfo">Staff Info</NavLink></li>              
             </ul>
             </div>
     </div>
 
 
-    <div className="n-right" >
-    <ul style={{listStyleType: 'none'}}>      
-       <li><a href="">Log In</a></li>
-       </ul>
+    <div className="n-right" >         
+      <NavLink className='link' to="/login">Log In</NavLink>
+      
         <button className="button n-button">
             Create your Account
         </button>
