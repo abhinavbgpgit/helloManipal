@@ -22,15 +22,16 @@ const Home = () => {
 
 </div>
 <div className='right_home'>
-
+<h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
 <div className='right_home_picture'>
 <img className='physio_picture' src={physio1} alt='jj' height="500px"></img>
 </div>
 
 <div className='right_home_animation'>
-
   <div className='div1'><img className='pain1' src={pain2} alt='jj' height="230px"></img></div>
-  <div className='div2'><img className='physio_picture' src={pain3} alt='jj' height="200px"></img></div>
+  <div className='div2'><img className='pain2' src={pain3} alt='jj' height="200px"></img></div>
   <div className='div3'><img className='pain3' src={pain1} alt='jj' height="200px" width="300px"></img></div>
 </div>
 

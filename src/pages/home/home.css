@@ -138,9 +138,11 @@ left: 0;
   border: 2px solid white;
   overflow:hidden;
 }
+
 .pain3
   {
-margin-left: -30px;
+margin-left: 0px;
+height: 180px;
   }
 .right_home_stars {
   position: absolute;
