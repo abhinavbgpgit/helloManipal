@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './navbar.css'
 import logo from '../images/manipal.png'
 import { NavLink } from 'react-router-dom'
 const Navbar = () => {
+
+
+  const [currentTime, setCurrentTime] = useState(new Date());
+    useEffect(() => {
+      const intervalId = setInterval(() => {
+        setCurrentTime(new Date());
+      }, 1000);
+  
+      return () => clearInterval(intervalId);
+    }, []);
+  
   return (
             
     <div className="n-wrapper">
@@ -26,11 +37,12 @@ const Navbar = () => {
 
 
     <div className="n-right" >         
-      <NavLink className='link' to="/login">Log In</NavLink>
+      <NavLink className='link border-2 border-red-600 mr-5' to="/login">Log Out</NavLink>
+      <div>
+      <p> {currentTime.toLocaleTimeString()}</p>
+      <p> {currentTime.toDateString()}</p>
+    </div>
       
-        <button className="button n-button">
-            Create your Account
-        </button>
     </div>
 </div>
         

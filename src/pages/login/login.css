@@ -48,6 +48,7 @@ body{
 
 .login-content img{
     height: 100px;
+	display: inline;
 }
 
 .login-content h2{
@@ -208,3 +209,41 @@ body{
 		justify-content: center;
 	}
 } */
+
+@keyframes hello {
+	0% {
+	  transform: translateY(0px);
+	}
+	25% {
+	  transform: translateY(5px);
+	}
+	50% {
+	  transform: translateY(0px);
+	}
+	75% {
+	  transform: translateY(-5px);
+	}
+  
+	100% {
+	  transform: translateY(0px);
+	}
+  }
+
+  .image
+  {
+	animation: hello 5s linear infinite;
+  }
+
+  .banner
+  {
+	transform: scale(0.7);
+  }
+
+  @media screen and (max-width: 900px){
+	
+	.banner
+	{
+	  transform: scale(2.7);
+	}
+} 
+

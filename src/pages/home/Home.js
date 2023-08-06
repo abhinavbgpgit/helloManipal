@@ -5,28 +5,26 @@ import physio1 from '../../images/physiotherapist.jpg'
 import pain1 from '../../images/pain.jpg'
 import pain2 from '../../images/pain1.jpg'
 import pain3 from '../../images/pain3.jpg'
+import { motion } from 'framer-motion' 
 
 const Home = () => {
   return (
     <div className='main_home'>
-<div className='left_home'>
-<div className='left_home_div'>
-  <div className='heading'> Manipal Physiotherapy Center</div>
-  <div className='heading2'> A place for quality treatment & healthcare</div>
-  <div className='heading3'> Physiotherapy as described by World Physiotherapy is a health care profession concerned with human function and movement and maximising physical potential.</div>
-  <button className="button n-button chatan">
-            Go To Patient Info
-        </button>
+
+<div className='left_home p-11'>
+<div className='flex items-center justify-center flex-col mt-48 m-0'>
+  <div className='font-bold text-9xl text-rose-500 heading'> MANIPAL </div>
+  <div className='font-bold text-5xl text-cyan-900 phy'> PHYSIOTHERAPY CENTER</div>
+  </div>
 </div>
 
 
-</div>
+
 <div className='right_home'>
-<h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
 <div className='right_home_picture'>
 <img className='physio_picture' src={physio1} alt='jj' height="500px"></img>
+</div>
+<div className='right_home_picture-rotate'>
 </div>
 
 <div className='right_home_animation'>
@@ -36,8 +34,8 @@ const Home = () => {
 </div>
 
 
-<div className='right_home_stars'>
-{/* <div className='star'><i class="fa-regular fa-star fa-2x"></i></div> */}
+{/* <div className='right_home_stars'>
+<div className='star'><i class="fa-regular fa-star fa-2x"></i></div>
 <div className='star'><i class="fa-solid fa-plus fa-2x"></i></div>
 <div className='star'><i class="fa-solid fa-clover fa-2x"></i></div>
 <div className='star'><i class="fa-solid fa-heart fa-2x"></i></div>
@@ -46,7 +44,7 @@ const Home = () => {
 <div className='star'><i class="fa-solid fa-gear"></i></div>
 
 
-</div>
+</div> */}
 </div>
 </div>
     

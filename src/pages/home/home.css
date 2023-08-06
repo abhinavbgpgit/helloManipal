@@ -3,12 +3,11 @@
 .main_home {
   display: flex;
 flex-wrap: wrap;
-background-image: url("/src/images/background.gif");
-background-size: cover;
+background-image:linear-gradient(#ffffff,#91b8df);
 }
 
 .left_home {
-  width: 45%;
+  width: 50%;
   height: 90vh;
   /* background-color: white; */
 }
@@ -24,11 +23,14 @@ background-size: cover;
 }
 
 .heading {
-  font-size: 40px;
-  font-family: "Poppins", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  /* color: #ff5252; */
-color: rgb(29, 77, 180);;
+  text-shadow: 4px 3px 0 #7A7A7A;
+}
+.phy
+{
+/* text-shadow: 3px 2px 0 #7A7A7A; */
+font-family: "Poppins", sans-serif;
 }
 
 .heading2 {
@@ -87,11 +89,35 @@ color: rgb(29, 77, 180);;
   height: 500px;
    border-radius: 50%;
   overflow: hidden;
-  border: 22px solid rgb(133, 174, 236);
+  border: 30px rgb(10, 69, 129) solid;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.right_home_picture-rotate
+{
+  width: 500px;
+  height: 500px;
+   border-radius: 50%;
+  overflow: hidden;
+  border: 30px dashed rgb(60, 141, 176);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: absolute;
+  animation: rotate 200s infinite linear;
+}
+
+@keyframes rotate
+{
+  0% {
+    transform: rotate(0deg);
+}
+100% {
+  transform: rotate(360deg);
+}
 }
 .physio_picture
 {
-  margin-left: -96px;
+  /* margin-left: -96px; */
+  margin-top: 80px;
+  transform: scale(1.6);
 }
 .right_home_animation {
   animation: hello 5s linear infinite;
@@ -106,7 +132,7 @@ left: 0;
   width: 180px;
   background-color: rgb(246, 239, 239);
   position: absolute;
-  top: 100px;
+  top: 150px;
   left: 90px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -118,7 +144,7 @@ left: 0;
   width: 250px;
   background-color: rgb(246, 239, 239);
   position: absolute;
-  top: 30px;
+  top: 60px;
   left: 490px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -138,11 +164,15 @@ left: 0;
   border: 2px solid white;
   overflow:hidden;
 }
-
+.pain1
+{
+  transform: scale(1.05);
+}
 .pain3
   {
-margin-left: 0px;
-height: 180px;
+margin-top: 15px;
+/* height: 180px; */
+transform: scale(1.2);
   }
 .right_home_stars {
   position: absolute;
